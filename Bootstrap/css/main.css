@@ -1,0 +1,336 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    background-color: white; 
+    z-index: 100;
+}
+
+.container-fluid {
+    max-width: 90%;
+    line-height: 1.8;
+}
+
+a {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+li:hover {
+    background-color: #ccc;
+    transition: background-color 0.5s;
+    
+    
+  
+}
+
+li a {
+    padding: 18px;
+    
+    
+    color: #000 !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a span {
+    padding-right: 5px;
+}
+
+li {
+    color: #000 !important;
+    
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (min-width: 768px) {
+    .carousel-caption>h1 {
+        font-size: 52px;
+        font-weight: 300;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-caption>h1 {
+        font-size: 32px;
+        font-weight: 300;
+    }
+}
+
+
+.row {
+    margin: 0 auto;
+}
+
+.text-header {
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0px 0px 20px 0px;
+}
+
+.text-header-2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: #777;
+    font-family: "Droid Serif", "Helvetica Neue", sans-serif;
+    margin: 20px 0px 20px 0px;
+}
+
+.text-header-3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: #777;
+    font-family: "Droid Serif", "Helvetica Neue", sans-serif;
+    text-transform: none;
+    margin: 20px 0px 20px 0px;
+}
+
+.text-muted {
+    font-family: 'Droid Serif', Georgia, Times, serif;
+    color: #777;
+}
+
+.col-md-12 {
+    margin: 0 auto;
+}
+
+.container.credo {
+    width: 100%;
+}
+.container.credo,.container.history,.container.history2,.container.sluzby{padding-top: 40px;
+padding-bottom: 40px;}
+
+.container.history {
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.names {
+    text-align: center;
+    color: #777;
+}
+
+.about {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+}
+
+.about-pastors {
+    color: #777;
+}
+
+.thumbnail.about-pastors {
+    border: none;
+}
+
+.container.sluzby {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+}
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(254, 209, 54, .9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+.fa-3x {
+    font-size: 3em;
+}
+
+.carousel-fade {
+    opacity: 1;
+}
+
+.carousel-fade .item {
+    transition: opacity ease-out 3s;
+    left: 0;
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+
+.carousel-fade .item:first-child {
+    top: auto;
+    opacity: 1;
+    position: relative;
+}
+
+.carousel-fade .item.active {
+    opacity: 1;
+}
+
+.carousel-control {
+    opacity: 0;
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity ease-out 3s;
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+
+
+
+
+
+.portfolios-caption > h4{
+    text-align: center;
+    
+}
+.carousel{
+   position: relative;
+    overflow:auto;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+    border: 7px solid #f1f1f1;
+}
+
+
+.primary {
+    border-top: 3px solid gold;
+    max-width: 50px;
+}
+.container.credo{
+    margin: 0 auto;
+    max-width: 90%;
+}
+.row.credo.a{
+    max-width: 90%;
+    
+}
+
+footer {
+    
+    color:black;
+}
+
+
+.modal-content {
+    text-align: center;
+}
